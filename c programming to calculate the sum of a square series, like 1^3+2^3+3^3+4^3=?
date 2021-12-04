@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main(int argc, char const *argv[])
+{
+int m,n,sum=0,i;
+
+    printf("Enter the starting number: ");
+    scanf("%d",&m);
+    printf("Enter final number: ");
+    scanf("%d",&n);
+     
+    for (i=m;i<=n;i++)
+        {
+            
+                 
+            sum = sum + (i*i*i);    
+        }
+    printf("sum=%d",sum);     
+    return 0;
+}
